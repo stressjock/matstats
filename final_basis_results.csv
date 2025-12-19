@@ -1,0 +1,23 @@
+N,Mean,SD,COV,SELECTED METHOD:,Normal,,
+20,1064.45,163.6352,15.3727,,,,
+,,,,,B-Basis,,A-Basis,Validity,
+
+ANOVA CMH-17 Analysis,,,,,,,,
+,MSB,MSE,S_pool,Tb,B_Val (ANOVA),Ta,A_Val (ANOVA),Pass (Poolable)
+,1940.45,28156.25,159.8,1.93,756.04,3.3,537.12,
+
+Normal Analysis,,,,,,,,
+,,,,Normal_Kb,Normal_B_Val,Normal_Ka,Normal_A_Value,AD_Stat,Pass
+,,,,1.9259,749.3123,3.2962,525.0788,0.5161,
+
+Lognormal Analysis,,,,,,,,
+,,,,Log_Kb,Log_B_Val,Log_Ka,Log_A_Value,AD_Stat,Fail
+,,,,1.9259,763.8349,3.2962,608.5287,0.7537,
+
+Non Parametric (HK) Analysis,,,,,,,,
+,,HK_rb,HK_r,HK_kb,HK_B_Val,HK_ka,HK_A_Value,,
+,,10,1099,1.253,642.4415,2.36683,319.2035,,
+
+Weibull Analysis,,,,,,,
+,,Shape,Scale,W_VB,B_Val (Weibull),W_VA,A_Val (Weibull),Validity
+,,8.6224,1130.0318,5.469,755.3506,10.035,510.9393,Pass
